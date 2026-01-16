@@ -1,0 +1,27 @@
+.meal-textarea {
+  width: 100%;
+  min-height: 110px;
+  padding: 12px 14px;
+
+  border-radius: 10px;
+  border: 1.5px solid #d1fae5;
+
+  font-size: 14px;
+  font-family: inherit;
+  line-height: 1.5;
+
+  resize: none;
+  outline: none;
+  background: #ffffff;
+
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.meal-textarea::placeholder {
+  color: #9ca3af;
+}
+
+.meal-textarea:focus {
+  border-color: #22c55e;
+  box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.15);
+}

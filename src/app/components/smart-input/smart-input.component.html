@@ -1,0 +1,19 @@
+<div class="page">
+  <div class="input-card">
+    <h2>Smart Food Entry</h2>
+    <p class="subtitle">Describe your meal in natural language</p>
+
+    <div class="form-group">
+      <label>Meal description</label>
+      <textarea
+        class="meal-textarea"
+        placeholder="e.g. I ate 2 chapatis with paneer curry"
+        [(ngModel)]="text"
+      ></textarea>
+    </div>
+
+    <button class="primary-btn" (click)="analyze()">
+      Analyze with AI ⚡
+    </button>
+  </div>
+</div>

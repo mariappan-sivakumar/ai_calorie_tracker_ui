@@ -1,0 +1,50 @@
+.result-card {
+  text-align: center;
+}
+
+.food-name {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  text-transform: capitalize;
+}
+
+.calories-box {
+  margin: 20px 0;
+}
+
+.calories-value {
+  font-size: 40px;
+  font-weight: 700;
+  color: #22c55e;
+  display: block;
+}
+
+.calories-label {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.macro-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 20px 0 28px;
+}
+
+.macro {
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.macro-value {
+  font-weight: 600;
+  font-size: 16px;
+  display: block;
+}
+
+.macro-label {
+  font-size: 13px;
+  color: #6b7280;
+}

@@ -1,0 +1,47 @@
+<div class="page">
+  <div class="input-card result-card">
+    <h2 class="food-name">{{ data.food }}</h2>
+    <p class="subtitle">
+      Quantity: {{ data.quantity_grams }} g
+      <span *ngIf="data.confidence">
+        • Confidence {{ data.confidence * 100 | number : "1.0-0" }}%
+      </span>
+    </p>
+
+    <!-- Calories -->
+    <div class="calories-box">
+      <span class="calories-value">
+        {{ data.nutrients.calories | number : "1.0-0" }}
+      </span>
+      <span class="calories-label"> Calories</span>
+    </div>
+
+    <!-- Macros -->
+    <div class="macro-grid">
+      <div class="macro">
+        <span class="macro-value"
+        >{{ data.nutrients.protein | number : "1.0-1" }} g</span
+        >
+        <span class="macro-label"> Protein</span>
+      </div>
+
+      <div class="macro">
+        <span class="macro-value"
+        >{{ data.nutrients.carbs | number : "1.0-1" }} g</span
+        >
+        <span class="macro-label"> Carbs</span>
+      </div>
+
+      <div class="macro">
+        <span class="macro-value"
+        >{{ data.nutrients.fat | number : "1.0-1" }} g</span
+        >
+        <span class="macro-label"> Fat</span>
+      </div>
+    </div>
+
+    <button class="primary-btn" routerLink="/standard">
+      Track Another Meal
+    </button>
+  </div>
+</div>

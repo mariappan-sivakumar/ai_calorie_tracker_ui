@@ -1,0 +1,147 @@
+/* ---------- BASE ---------- */
+body {
+  background: #f9fafb;
+  color: #111827;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+/* ---------- HEADER ---------- */
+.app-header {
+  padding: 20px 32px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #ffffff;
+  margin: 0; 
+}
+
+.app-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* ---------- NAV ---------- */
+.nav-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  margin-top: 12px;
+}
+
+.nav-tabs a {
+  text-decoration: none;
+  color: #6b7280;
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+
+.nav-tabs a.active {
+  color: #16a34a;
+  border-bottom: 2px solid #16a34a;
+}
+
+/* ---------- PAGE ---------- */
+.page-container {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 0 16px;
+}
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px
+    min-height: calc(100vh - 80px);
+    padding-top: 24px; 
+  }
+
+  /* Header */
+.header {
+    width: 100%;
+    padding: 20px 40px;
+  }
+  
+  .logo {
+    font-weight: 600;
+    color: #22c55e;
+    font-size: 18px;
+  }
+/* ---------- CARD ---------- */
+.card {
+  max-width: 420px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  width: 360px;
+  border-radius: 16px;
+  text-align: center;
+}
+.card h1 {
+    margin-bottom: 4px;
+  }
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0; /* 🔥 remove default margin */
+  }
+  
+  .subtitle {
+    margin-top: 0px
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 20px;
+  }
+/* ---------- FORM ---------- */
+.form-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.form-subtitle {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #d1fae5;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #22c55e;
+}
+
+/* ---------- BUTTON ---------- */
+.primary-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: none;
+  background: #22c55e;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background: #16a34a;
+}

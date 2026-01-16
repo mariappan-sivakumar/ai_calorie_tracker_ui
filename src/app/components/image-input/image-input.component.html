@@ -1,0 +1,32 @@
+<div class="page">
+  <div class="input-card">
+    <h2>Image Food Entry</h2>
+    <p class="subtitle">Upload a food image for analysis</p>
+
+    <div class="form-group">
+      <label>Food image</label>
+
+      <div class="file-upload">
+        <input
+          type="file"
+          id="foodImage"
+          accept="image/*"
+          (change)="onFile($event)"
+          hidden
+        />
+
+        <label for="foodImage" class="file-btn">
+          📷 Choose Image
+        </label>
+
+        <span class="file-name">
+          {{ file?.name || 'No file selected' }}
+        </span>
+      </div>
+    </div>
+
+    <button class="primary-btn" (click)="analyze()" [disabled]="!file">
+      Analyze Image 📸
+    </button>
+  </div>
+</div>

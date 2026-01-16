@@ -1,0 +1,130 @@
+/* Page background */
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: #f5f6fa;
+}
+
+/* Center card */
+.input-card {
+  background: #ffffff;
+  max-width: 380px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Header */
+.input-card h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+/* Input group */
+.form-group {
+  margin-bottom: 14px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+/* Inputs */
+.form-group input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  outline: none;
+}
+
+.form-group input:focus {
+  border-color: #4f46e5;
+}
+
+/* Submit button */
+.primary-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  background: #4f46e5;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primary-btn:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+/* Loading text */
+.loading {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 13px;
+  color: #666;
+}
+.top-bar {
+  padding: 16px 24px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+
+.tabs {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.tabs a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #777;
+  padding-bottom: 6px;
+}
+
+.tabs a.active {
+  color: #22c55e;
+  border-bottom: 2px solid #22c55e;
+}
+.tab-nav {
+  display: flex;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #6b7280;
+  font-weight: 600;
+}
+
+.tab.active {
+  color: #22c55e;
+  border-bottom: 2px solid #22c55e;
+}
+
+.tab:hover {
+  background: #f9fafb;
+}
+
+/* CRITICAL FIX */
+.tab,
+.tab * {
+  pointer-events: auto !important;
+}

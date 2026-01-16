@@ -1,0 +1,20 @@
+.log-meal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .subtitle {
+    color: #6b7280;
+    margin-bottom: 24px;
+  }
+  
+  .card {
+    width: 420px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    padding: 24px;
+  }
+  
