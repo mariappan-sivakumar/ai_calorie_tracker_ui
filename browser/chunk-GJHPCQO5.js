@@ -1,0 +1,1 @@
+import{P as r}from"./chunk-4SHVFP3A.js";var a=(()=>{class t{result=null;static \u0275fac=function(e){return new(e||t)};static \u0275prov=r({token:t,factory:t.\u0275fac,providedIn:"root"})}return t})();export{a};
