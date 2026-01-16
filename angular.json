@@ -29,8 +29,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
-            "baseHref": "ai_calorie_tracker_ui"
+            "scripts": []
           },
           "configurations": {
             "production": {
